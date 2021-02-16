@@ -6,3 +6,5 @@
         And I fill in "password" with "admin123"
         And I click on "logIn" button
     Then I should see text "Nephele Local" in right side pane
+    
+    Scenario: Verify user cannot login to user site.
